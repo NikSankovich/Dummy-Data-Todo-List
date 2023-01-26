@@ -14,6 +14,14 @@
     <button onclick="fetchTodos()">Fetch Todos</button>
     <button onclick="logTodos()">Log Todos</button>
     <button onclick="populateTodos()">Populate Todos</button>
+    <button onclick="clearTodos()">Clear Todos</button>
+
+    <p>
+        <label for="num-input">Enter a number between 1 and 10</label>
+        <input type="number" name="num-input" id="num-input" min="1" max="10">
+    </p>
+
+    <button onclick="getByUser()">Get Todos by User</button>
     <ol id="todo-list">
         <!-- LIs will go here -->
     </ol>
